@@ -32,7 +32,7 @@
         A piston is located at x=0 and occupies y=[0,d] with the following boundary conditions,\\
         $\partial_xp=Q_0 \in x=0, y=[0,d]$,\\
         $\partial_xp=0 \in x=0, y=[d,h]$,\\
-        $\partial_yp=0 \in x=0, y=0,h$.\\
+        $\partial_yp=0 \in x>0, y=0,h$.\\
         
         
 
@@ -40,7 +40,7 @@
         The normal derivative of the pressure on the walls of the waveguide is zero.\\
         The normal derivative of the pressure on the piston is $Q_0$.
         Solving the Helmholtz equation $(\nabla +k^2)p=0$ for the pressure field p in the waveguide,
-        and considering only the outgoing wave condition \[ p(x,y)=\sum_{n=0}^{\infty}A_n e^{ik_nx} g_n(y)\]. Where, \quad$g_n(y)=\sqrt{\frac{\epsilon}{h}}\cos(\frac{n\pi}{h}y)$, $\epsilon=2-\delta_{0n)}$, $k_n=\sqrt{k^2-(\frac{n\pi}{h})^2}$.
+        and considering only the outgoing wave condition \[ p(x,y)=\sum_{n=0}^{\infty}A_n e^{ik_nx} g_n(y)\]. Where, \quad$g_n(y)=\sqrt{\frac{\epsilon}{h}}\cos(\frac{n\pi}{h}y)$, $\epsilon=2-\delta_{0n}$, $k_n=\sqrt{k^2-(\frac{n\pi}{h})^2}$.
         \\Find $A_n$ and reconstruct the pressure field.
     }
 \end{frame}
